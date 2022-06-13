@@ -21,5 +21,11 @@ const prices2 = products.map(price => {
 
 //filter
 
-const cheaper = products.filter(price => price.price < 1000)
+const cheaper = products.filter(price => price.price < 1000);
 console.log(cheaper);
+//remove an item
+
+const remaining = products.filter(product => product.id != 3);
+console.log(remaining);
+const remaining1 = products.filter(product => product.name === 'Phone');
+console.log(remaining1);
