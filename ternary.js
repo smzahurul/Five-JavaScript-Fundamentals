@@ -21,3 +21,11 @@ cssClass = userActive ? 'active' : 'disabled';
 userActive ? displayUser() : hideUser;
 userActive && displayUser();
 userActive || displayUser();
+
+const number = "50";
+number = +"45";
+console.log(number);
+
+const number1 = "50";
+number = "45" + '';
+console.log(number1);
